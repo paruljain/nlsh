@@ -1,4 +1,9 @@
 import requests
+import os
+
+if not os.path.isfile('config.py'):
+    os.rename('config_sample.py', 'config.py')
+
 from config import config
 
 def __getCmdPayload(prompt):

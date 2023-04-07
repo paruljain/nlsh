@@ -24,7 +24,6 @@ def runShellCmd(input):
     except:
         pass
 
-
 while True:
     print()
     print(f'{os.getcwd()}>', end=' ')
