@@ -23,7 +23,7 @@ nsh is a Natural Language Shell for Linux. Instead of remembering BASH commands,
 * API key from OpenAI. You can [get one here](https://platform.openai.com/playground) for free. Sign up, then click on *Personal* top right corner, then *View API keys*.
 
 # Installing nsh
-Download the zip of this repo on your Linux machine. Extract to any folder.
+Download the zip of this repo on your Linux machine. Extract to any folder. Rename config_sample.py to config.py and insert your OpenAI API key in config.py.
 
 # Running nsh
 *python nsh.py*
